@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/x-icon" href="images/work-1.png">
+    <script src="https://kit.fontawesome.com/a972348b0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#prtfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" onclick="">
+                <p>Mean Stack Developer</p>
+                <h1 id="animated-heading">Hi, I'm <span>Shafin</span></h1>
+            </div>
+            
+        </div>
+    </div>
+<!-- --------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a budding programmer. And a self taught devoloper . I have a solid technological background, To be a part of your esteemed organisation where can utilize my analytical skills ability to enrich my knowledge and experience to perfome quality work while giving me an oppertunity to grow myself along with organisation in challenging environment and uncertainship.. I also have experience with the Angualr, Node.js, HTML,JS and CSS.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expierence')">Expierence</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Full Stack Devolopment</span><br>Designing Websites</li>
+                            <li><span>Web Devolopment</span><br>Web App Devolopment</li>
+                            <li><span>Angular devoloper</span><br>Building Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="expierence">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Full Stack Devoloper</li>
+                            <li><span>2020 - 2023</span><br>Bsc computer science</li>
+                            <li><span>2019 - 2022</span><br>Intern at Nilambur DH</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Level x</li>
+                            <li><span>2022</span><br>Bsc Cs From Amal College Of Advanced Studies</li>
+                            <li><span>2020</span><br>GHSS Pandikkad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Website Designing</h2>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design)</p>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Mean</h2>
+                <p>MEAN is a free and open-source JavaScript software stack for building dynamic web sites and web applications. A variation known as MERN replaces Angular with React.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Full Stack </h2>
+                <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------portfolio---------- -->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+             <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Personol Portfolio</h3>
+                    <p>I made myself a personal portfolio website.It  is a professional website that provides information about what you do, what services you may offer, and how to contact you or your company. Portfolio websites are an easy way to promote yourself, your brand, or your business</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cc.png" alt="">
+                <div class="layer">
+                    <h3>ENLIFE</h3>
+                    <p>EnLife connects those in need of blood transfusions with willing blood donors. Our mission is to make the process of finding a blood donor easier and more efficient, ultimately saving lives and improving the health of our community.</p>
+                    <a href="https://enlife.000webhostapp.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/netflixc.png" alt="">
+                <div class="layer">
+                    <h3>Netflix clone</h3>
+                    <p>Netflix is an American subscription video on-demand over-the-top streaming service owned and operated by Netflix, Inc. The service primarily distributes films and television series produced by the media company of the same name from various genres, and it is available internationally in multiple languages</p>
+                    <a href="https://mohammedshafinc.github.io/netflix-clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+
+<!-- --------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>shafinms21@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7994648644</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100089540105817"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Shfnex"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/shfn.ex/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammedshafin/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/mycv.pdf " download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="Messege"  rows="6" placeholder="your messege"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shafin. Made <i class="fa-solid fa-heart"></i> by Mohammed Shafin</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<form name="submit-to-google-sheet">
+
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ4mbefT2uNVgAQdE6IoNl1NB7zxZX6QplFrLxigPnK9xl-LJSgq8Dl8IjMUGpxxlX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+   form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    alert("Message sent successfully!");
+});
+window.addEventListener('DOMContentLoaded', (event) => {
+    // Add a class to trigger the animation
+    document.getElementById('animated-heading').classList.add('reveal-animation');
+});
+
+
+  </script>
+</body>
+</html>
